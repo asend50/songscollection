@@ -1,0 +1,14 @@
+[package]
+name = "songscollection"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+macroquad = "0.4.14"
+
+[features]
+scale = []
+default = []
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+arboard = { version = "3.6", features = ["wayland-data-control"] }
