@@ -44,6 +44,8 @@ async fn main() {
     
     let lightblue = Color::new(0.678, 0.847, 0.902, 1.0);
 
+    let lesslightblue = Color::new(0.450, 0.650, 0.850, 1.0);
+
     let backgroundblue = Color::new(0.550, 0.800, 0.970, 1.0);
 
     let selectionblue = Color::new(0.550, 0.900, 0.999, 1.0);
@@ -96,6 +98,7 @@ async fn main() {
         50,
     );
     listview.with_colors(BLACK, Some(backgroundblue), Some(selectionblue));
+    listview.with_border(lesslightblue, 6.0);
     
     let mut txt_input = TextInput::new(350.0, 350.0, 250.0, 40.0, 25.0);
 
