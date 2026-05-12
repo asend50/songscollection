@@ -1,7 +1,7 @@
 /*
 By: <Asen Doiron>
 Date: 2026-04-20
-Program Details: <Program Description Here>
+Program Details: <The purpose of this program is to create a simple song collection where the user can add songs, remove songs, sort songs, and select a random song.>
 */
 
 mod modules;
